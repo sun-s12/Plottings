@@ -6,7 +6,7 @@ from scipy.stats import shapiro
 import os
 
 # 🔹 Step 1: Import Data
-file_path = 'C:/Users/Careline M01/Downloads/PCA/Vs Code Project/CRM/PCA_All_before selection-SSA updated.xlsx'
+file_path = 'file_name.xlsx'
 data = pd.read_excel(file_path)
 
 # Remove the 'ID' column (assuming the first column is named 'ID')
